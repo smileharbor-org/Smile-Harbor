@@ -1,6 +1,6 @@
 
 TITLE: 
-Smile Harbour Official Website 
+Smile Harbor Official Website 
 
 
 AUTHOR:
