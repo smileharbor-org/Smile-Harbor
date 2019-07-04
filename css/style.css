@@ -1125,7 +1125,7 @@ figure {
 
 .fh5co-social-icons > a {
   padding: 4px 10px;
-  color: #ff5722;
+  color: #000080;
 }
 .fh5co-social-icons > a i {
   font-size: 26px;
@@ -1136,7 +1136,7 @@ figure {
 }
 
 #footer {
-  background: #ff5722;
+  background: #000080;
   padding: 60px 0 40px;
 }
 #footer p {
