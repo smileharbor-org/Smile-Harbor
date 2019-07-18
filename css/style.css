@@ -282,12 +282,15 @@ figure {
 }
 .cid-qwYkqbxiVW {
   padding-top: 15px;
-  padding-bottom: 90px;
+  padding-bottom: 20px;
   background-color: #073b4c;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
 }
-.cid-qwYkqbxiVW .google-map {
-  height: 25rem;
-  width:50rem;
+.google-map {
+  height: 30vw;
+  width:80vw;
   position: relative;
 }
 .cid-qwYkqbxiVW .google-map iframe {
@@ -301,7 +304,9 @@ figure {
   margin-top: -0.75em;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  position: absolute;
+  justify-content: center;
+  display:flex;
+  flex-wrap: wrap;
   text-align: center;
   top: 50%;
   width: 100%;
@@ -1529,4 +1534,4 @@ figure {
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
 
-/*# sourceMappingURL=style.css.map */
+
