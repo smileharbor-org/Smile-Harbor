@@ -50,7 +50,7 @@ figure {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: ##000080;
+  background: #000080;
 }
 
 ::-moz-selection {
@@ -173,7 +173,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -186,7 +186,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover_2 {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -475,7 +475,6 @@ figure {
 #fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -499,7 +498,6 @@ figure {
 #fh5co-primary-menu > li > ul li > .sf-with-ul:after {
   border: none !important;
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1045,10 +1043,13 @@ figure {
 }
 
 .fh5co-testimonial, .fh5co-team {
-  position: relative;
   background: #fff;
   padding: 4em 0;
   border-radius: 5px;
+}
+.fh5co-team {
+  height:10em;
+  margin-bottom: 20em;
 }
 @media screen and (max-width: 768px) {
   .fh5co-testimonial, .fh5co-team {
@@ -1533,5 +1534,4 @@ figure {
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
-
 

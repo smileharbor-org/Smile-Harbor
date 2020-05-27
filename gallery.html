@@ -77,20 +77,33 @@
 		
 		<style>
   .cards {
+	padding: 2em 10em;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    flex-direction: row;
-    max-height: 100vh;
+	flex-direction: row;
+	align-content: space-between;
+	object-fit:cover;
   }
   .cards img {
-    margin: 10px;
+	margin: 10px;
     border: 3px solid #000;
-    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
-    max-width: 23vw;
+	box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+	height:20em;
+	width:20em;
+  }
+  @media screen and (max-width: 500px) {
+	  .cards{
+		padding:2em 4em;
+	  }
+	  .cards img {
+		  height:15em;
+		  width:15em;
+	  }
   }
 </style>
-<main class="cards">
+<div class="gallery">
+<h3 class="text-center" style="font-size: 4em;padding-top:1em;padding-top:0.5em">Gallery</h3>
+<div class="cards">
   <img src="images/7.JPG" alt="Scabies">
   <img src="images/4.JPG" alt="We Care">
   <img src="images/9.JPG" alt=" A Lot">
@@ -100,7 +113,8 @@
   <img src="images/1.JPG" alt="Sample photo">
   <img src="images/2.JPG" alt="Sample photo">
   <img src="images/3.JPG" alt="Sample photo">
-</main>
+</div>
+</div>
 
 		
 		
