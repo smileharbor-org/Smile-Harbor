@@ -588,13 +588,13 @@ a:focus {
 .wrap-header .content-header .mid-content-header.centered {
   text-align: center;
 }
-.wrap-header .content-header .mid-content-header.centered h1 {
+/* .wrap-header .content-header .mid-content-header.centered h1 {
   /*          &:before{
             right: 50%;
             margin-right: -40px;
-          }*/
+          }
 
-}
+} */
 .list-stat {
   margin-bottom: 30px;
 }
