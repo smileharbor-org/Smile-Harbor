@@ -1,2 +1,2 @@
 # Smile-Harbor
-Official Website of Smile Harbor
+Official Website of Smile Harbor Foundation
